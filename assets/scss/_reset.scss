@@ -1,0 +1,79 @@
+/* === Reset === */
+
+// Fonts
+html {
+  // font-size: 16px;
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: $primary-font;
+  line-height: $primary-line-height;
+  font-weight: 400;
+  color: $primary-color;
+  background-color: #fafafa;
+}
+body {
+  font-size: $primary-font-size;
+  font-size: 1.5rem;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  &:hover {
+    color: $primary-color;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-weight: 700;
+  line-height: 1.5;
+}
+p {
+  margin-bottom: 0;
+  // line-height: 1.5;
+}
+button {
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+  object-fit: cover;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+label {
+  cursor: pointer;
+}
+input {
+  width: 100%;
+  outline: none;
+  border: 0;
+}
+button {
+  border: 0;
+}
+span {
+  // display: inline-block;
+}
+sup {
+  top: -0.185em;
+}
+.btn-close:focus {
+  box-shadow: none;
+}
+.container {
+  max-width: 1500px;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
